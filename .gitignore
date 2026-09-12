@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Model weights (auto-downloaded by ultralytics at runtime)
+*.pt
+*.onnx
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Temp/output artifacts
+*.tmp
+sample/*.mp4
+sample/*.jpg
+!sample/.gitkeep
+
+# Secrets
+.env
+*.pem
+*.key
